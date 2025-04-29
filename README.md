@@ -1,10 +1,6 @@
 ## 👩🏻‍💻 Hello, World! I'm Peter Mölzer 🌍
 
-Based in Berlin, currently honing my technical skills at the innovative **[42 Berlin](https://www.42network.org/)** programming school.
-
-Originally from Genoa, Italy 🇮🇹🇦🇹, I hold a **Bachelor of Science in Economics** from Humboldt-Universität zu Berlin. My fascination with how technology—particularly AI—can transform data into actionable insights led me from analyzing markets and building strategic partnerships at companies like **Klarna** and **Clark** to diving deep into code.
-
-My goal is to bridge the gap between business strategy and technical execution, building impactful software solutions.
+Based in Berlin, I'm currently diving deep into **Software Engineering** at the innovative **[42 Berlin](https://www.42network.org/)** programming school. My goal is to bridge the gap between business strategy and technical execution, building impactful software solutions.
 
 ### 🚀 My Current Focus at 42 Berlin
 
@@ -13,6 +9,10 @@ At 42, I'm immersed in a project-based curriculum, tackling challenges in:
 *   **Systems Engineering:** Linux Kernel, Virtual Machines, Docker Containerization
 *   **Networking Fundamentals:** IP Addressing, Subnetting, Routing
 *   **Development Practices:** Shell Scripting, Git/Version Control, Agile Methodologies (via peer learning, code reviews, pair programming)
+
+### 💡 My Journey to Code
+
+My path to software development builds on a unique foundation. Originally from Genoa, Italy 🇮🇹🇦🇹, I hold a **Bachelor of Science in Economics** from Humboldt-Universität zu Berlin and gained practical experience analyzing markets and building strategic partnerships at companies like **Klarna** and **Clark**. It was this experience, combined with a fascination for how technology—particularly AI—can transform data into actionable insights, that ignited my passion and drove me to fully transition into software engineering. I bring this blend of analytical thinking and business understanding to my technical pursuits.
 
 ### 📝 Languages & Tools
 ![C](https://img.shields.io/badge/-C-00599C?style=flat&logo=c&logoColor=white)
