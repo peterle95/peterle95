@@ -46,9 +46,9 @@ At 42, I'm immersed in a project-based curriculum, tackling challenges in:
 
 *   🇮🇹 Italian (Native)
 *   🇩🇪 German (C2 - Proficient)
-*   🇬🇧 English (C1/C2 - Proficient)
-*   🇷🇺 Russian (A2 - Basic)
-
+*   🇬🇧 English (C2 - Proficient)
+*   🇷🇺 Russian (B1 - Intermediate)
+   
 ### 🌱 What I'm Learning / Working On
 
 *   Currently deep-diving into C++ development.
