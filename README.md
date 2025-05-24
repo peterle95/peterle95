@@ -50,9 +50,6 @@ My path to software development builds on a unique foundation. Originally from G
    
 ### 🌱 What I'm Learning / Working On
 
-*   Currently deep-diving into C++ development.
-*   ### 🌱 What I'm Learning / Working On
-
 *   Currently deep in development on **a full-stack web application for tracking personal finance, with data analysis tool using AI**.
 *   This project involves:
     *   Building the frontend with **React / Next.js** and **TypeScript**.
