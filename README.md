@@ -27,10 +27,6 @@ At 42, I'm immersed in a project-based curriculum, tackling challenges in:
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 ![Vim](https://img.shields.io/badge/-Vim-019733?style=flat&logo=vim&logoColor=white)
-# ![Python](https://img.shields.io/badge/-Python-306998?style=flat&logo=python&logoColor=white) 
-# ![Jest](https://img.shields.io/badge/-Jest-C21325?style=flat&logo=jest&logoColor=white)
-# ![Cypress](https://img.shields.io/badge/-Cypress-17202C?style=flat&logo=cypress&logoColor=white)
-# ![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat&logo=angular&logoColor=white)
 ### 💡 My Journey to Code
 
 My path to software development builds on a unique foundation. Originally from Genoa, Italy 🇮🇹🇦🇹, I hold a **Bachelor of Science in Economics** from Humboldt-Universität zu Berlin and gained practical experience analyzing markets and building strategic partnerships at companies like **Klarna** and **Clark**. It was this experience, combined with a fascination for how technology—particularly AI—can transform data into actionable insights, that ignited my passion and drove me to fully transition into software engineering. I bring this blend of analytical thinking and business understanding to my technical pursuits.
