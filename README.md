@@ -24,12 +24,12 @@ At 42, I'm immersed in a project-based curriculum, tackling challenges in:
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma&logoColor=white)
-![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat&logo=angular&logoColor=white)
+# ![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat&logo=angular&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![Jest](https://img.shields.io/badge/-Jest-C21325?style=flat&logo=jest&logoColor=white)
-![Cypress](https://img.shields.io/badge/-Cypress-17202C?style=flat&logo=cypress&logoColor=white)
+# ![Jest](https://img.shields.io/badge/-Jest-C21325?style=flat&logo=jest&logoColor=white)
+# ![Cypress](https://img.shields.io/badge/-Cypress-17202C?style=flat&logo=cypress&logoColor=white)
 ![Vim](https://img.shields.io/badge/-Vim-019733?style=flat&logo=vim&logoColor=white)
 
 ### 💡 My Journey to Code
@@ -50,10 +50,10 @@ My path to software development builds on a unique foundation. Originally from G
    
 ### 🌱 What I'm Learning / Working On
 
-*   Currently deep in development on **a full-stack web application for tracking personal finance, with data analysis tool using AI**.
+*   Currently deep in development on **a full-stack web application for an ecological platform for privates and organisations, with data analysis tool using AI**.
 *   This project involves:
     *   Building the frontend with **React / Next.js** and **TypeScript**.
-    *   Developing the backend logic using **C++**.
+    *   Developing the backend logic using **Node.js**.
     *   Managing data with **MongoDB**.
     *   Containerizing the application environment using **Docker**.
     *   Implementing version control best practices with **Git** and GitHub.
