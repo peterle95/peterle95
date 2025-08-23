@@ -13,7 +13,7 @@ At 42, I'm immersed in a project-based curriculum, tackling challenges in:
 ### 📝 Languages & Tools
 ![C](https://img.shields.io/badge/-C-00599C?style=flat&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white) 
-![Python](https://img.shields.io/badge/-Python-306998?style=flat&logo=python&logoColor=white) 
+# ![Python](https://img.shields.io/badge/-Python-306998?style=flat&logo=python&logoColor=white) 
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) 
 ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white)
