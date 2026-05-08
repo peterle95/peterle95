@@ -1,11 +1,11 @@
 ## 👩🏻‍💻 Hello, World! I'm Peter Mölzer 🌍
 
-Based in Berlin, I'm currently diving deep into **Software Engineering** at the innovative **[42 Berlin](https://www.42network.org/)** programming school. My goal is to bridge the gap between business strategy and technical execution, building impactful software solutions.
+Based in Berlin, I successfully graduated in **Software Engineering** at the innovative **[42 Berlin](https://www.42network.org/)** programming school and in Economics at the Humboldt University. My goal is to bridge the gap between business strategy and technical execution, building impactful software solutions.
 
-### 🚀 My Current Focus at 42 Berlin
+### 🚀 My Focus at 42 Berlin
 
-At 42, I'm immersed in a project-based curriculum, tackling challenges in:
-*   **Core Programming:** Algorithms, Data Structures, C, C++
+At 42, I'm immersed myself in a project-based curriculum, tackling challenges in:
+*   **Core Programming:** Algorithms, Data Structures, C, C++, NextJS
 *   **Systems Engineering:** Linux Kernel, Virtual Machines, Docker Containerization
 *   **Networking Fundamentals:** IP Addressing, Subnetting, Routing
 *   **Development Practices:** Shell Scripting, Git/Version Control, Agile Methodologies (via peer learning, code reviews, pair programming)
@@ -29,12 +29,7 @@ At 42, I'm immersed in a project-based curriculum, tackling challenges in:
 ![Vim](https://img.shields.io/badge/-Vim-019733?style=flat&logo=vim&logoColor=white)
 ### 💡 My Journey to Code
 
-My path to software development builds on a unique foundation. Originally from Genoa, Italy 🇮🇹🇦🇹, I hold a **Bachelor of Science in Economics** from Humboldt-Universität zu Berlin and gained practical experience analyzing markets and building strategic partnerships at companies like **Klarna** and **Clark**. It was this experience, combined with a fascination for how technology—particularly AI—can transform data into actionable insights, that ignited my passion and drove me to fully transition into software engineering. I bring this blend of analytical thinking and business understanding to my technical pursuits.
-
-### 🖥 Operating Systems
-![Mac](https://img.shields.io/badge/-Mac-000000?style=flat&logo=apple&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-000000?style=flat&logo=linux&logoColor=white)
-![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white)
+My path to software development builds on a unique foundation. Originally from Genoa, Italy 🇮🇹🇦🇹, I hold a **Bachelor of Science in Economics** from Humboldt-Universität zu Berlin and gained practical experience analyzing markets and building strategic partnerships at companies like **Klarna** and **Clark**. It was this experience, combined with a fascination for how technology can transform data into actionable insights, that ignited my passion and drove me to fully transition into software engineering. I bring this blend of analytical thinking and business understanding to my technical pursuits.
 
 ### 🌐 Languages
 
@@ -42,17 +37,6 @@ My path to software development builds on a unique foundation. Originally from G
 *   🇩🇪 German (C2 - Proficient)
 *   🇬🇧 English (C2 - Proficient)
 *   🇷🇺 Russian (B1 - Intermediate)
-   
-### 🌱 What I'm Learning / Working On
-
-*   Currently deep in development on **a full-stack web application for an ecological platform for privates and organisations, with data analysis tool using AI**.
-*   This project involves:
-    *   Building the frontend with **React / Next.js** and **TypeScript**.
-    *   Developing the backend logic using **Node.js**.
-    *   Managing data with **MongoDB**.
-    *   Containerizing the application environment using **Docker**.
-    *   Implementing version control best practices with **Git** and GitHub.
-*   This is a fantastic opportunity to apply concepts learned at 42 Berlin, particularly in system design, efficient algorithms, and collaborative development, while strengthening my skills across the full technology stack.
 
 ### 🎸 Outside of Code
 
