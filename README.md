@@ -4,8 +4,8 @@ Based in Berlin, I successfully graduated in **Software Engineering** at the inn
 
 ### 🚀 My Focus at 42 Berlin
 
-At 42, I'm immersed myself in a project-based curriculum, tackling challenges in:
-*   **Core Programming:** Algorithms, Data Structures, C, C++, NextJS
+At 42, I immersed myself in a project-based curriculum, tackling challenges in:
+*   **Core Programming:** Algorithms, Data Structures, C, C++, NextJS, Docker, TypesScript, React
 *   **Systems Engineering:** Linux Kernel, Virtual Machines, Docker Containerization
 *   **Networking Fundamentals:** IP Addressing, Subnetting, Routing
 *   **Development Practices:** Shell Scripting, Git/Version Control, Agile Methodologies (via peer learning, code reviews, pair programming)
@@ -44,6 +44,6 @@ When I'm not at the keyboard, I enjoy reading, writing, playing the guitar, DJin
 
 ### 📫 Let's Connect!
 
-I'm always open to connecting with fellow developers, economists interested in tech, or potential collaborators. Feel free to reach out!
+I'm always open to connecting with fellow developers, or potential collaborators. Feel free to reach out!
 
 *   **LinkedIn:** [Peter Mölzer](https://www.linkedin.com/in/peter-moelzer/) ✨
