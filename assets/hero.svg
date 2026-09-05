@@ -61,6 +61,14 @@
     .bar3 { animation: barC 2.3s ease-in-out infinite; transform-origin: center bottom; }
     .bar4 { animation: barD 3.5s ease-in-out infinite; transform-origin: center bottom; }
     .connPulse { animation: connPulse 2.8s ease-in-out infinite; }
+    .rocketLaunch {
+      opacity: 0;
+      animation: rocketLaunch 5.8s cubic-bezier(.32,.05,.18,1) 1.7s 1 both;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .rocketFlameOuter { animation: flameOuter .18s steps(2,end) infinite; transform-origin: 5px 32px; }
+    .rocketFlameInner { animation: flameInner .14s steps(2,end) infinite; transform-origin: 7px 31px; }
     @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
     @keyframes floatA { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-6px)} }
     @keyframes floatB { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(7px)} }
@@ -78,6 +86,23 @@
     @keyframes barC { 0%,100%{transform:scaleY(.45)} 50%{transform:scaleY(.84)} }
     @keyframes barD { 0%,100%{transform:scaleY(.20)} 50%{transform:scaleY(.95)} }
     @keyframes connPulse { 0%,100%{stroke-opacity:.12} 50%{stroke-opacity:.35} }
+    @keyframes rocketLaunch {
+      0%   { opacity: 0; transform: translate(0px, 12px) rotate(-8deg) scale(.92); }
+      7%   { opacity: 1; transform: translate(0px, 0px) rotate(-8deg) scale(1); }
+      24%  { opacity: 1; transform: translate(20px, -10px) rotate(-12deg) scale(1); }
+      44%  { opacity: 1; transform: translate(68px, -48px) rotate(-19deg) scale(1.02); }
+      68%  { opacity: 1; transform: translate(142px, -118px) rotate(-26deg) scale(1.03); }
+      88%  { opacity: 1; transform: translate(238px, -208px) rotate(-31deg) scale(1.02); }
+      100% { opacity: 0; transform: translate(320px, -286px) rotate(-34deg) scale(.98); }
+    }
+    @keyframes flameOuter {
+      0%,100% { transform: scaleX(1) scaleY(1); opacity: 1; }
+      50% { transform: scaleX(.78) scaleY(1.18); opacity: .9; }
+    }
+    @keyframes flameInner {
+      0%,100% { transform: scaleX(.84) scaleY(1.05); opacity: .95; }
+      50% { transform: scaleX(1.08) scaleY(.82); opacity: 1; }
+    }
     @media (prefers-reduced-motion: reduce) {
       * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; }
     }
@@ -118,6 +143,62 @@
         <text class="mono text" font-size="17" x="142" y="144">~$ cat focus.txt</text>
         <text class="mono text" font-size="14" x="0" y="172">building useful systems from UI → infrastructure</text>
         <text class="mono muted" font-size="14" x="0" y="196">TypeScript · React · Next.js · C/C++ · Docker</text>
+      </g>
+
+      <!-- one-shot pixel rocket: launches once, then leaves the terminal permanently -->
+      <g transform="translate(382 138)">
+        <g class="rocketLaunch">
+          <g transform="rotate(-18 31 30)">
+            <!-- exhaust -->
+            <g class="rocketFlameOuter">
+              <rect x="0" y="27" width="7" height="7" fill="#FF3B30"/>
+              <rect x="-6" y="31" width="8" height="8" fill="#FF6A00"/>
+              <rect x="-11" y="35" width="7" height="7" fill="#FFB000"/>
+              <rect x="-14" y="38" width="5" height="5" fill="#FFD60A"/>
+            </g>
+            <g class="rocketFlameInner">
+              <rect x="1" y="29" width="6" height="6" fill="#FFD60A"/>
+              <rect x="-4" y="33" width="6" height="6" fill="#FFF36D"/>
+            </g>
+
+            <!-- dark pixel outline -->
+            <rect x="6" y="22" width="6" height="17" fill="#090C10"/>
+            <rect x="12" y="14" width="7" height="25" fill="#090C10"/>
+            <rect x="19" y="8" width="7" height="31" fill="#090C10"/>
+            <rect x="26" y="3" width="18" height="7" fill="#090C10"/>
+            <rect x="38" y="9" width="12" height="7" fill="#090C10"/>
+            <rect x="44" y="15" width="7" height="16" fill="#090C10"/>
+            <rect x="38" y="30" width="7" height="8" fill="#090C10"/>
+            <rect x="31" y="37" width="8" height="7" fill="#090C10"/>
+            <rect x="18" y="38" width="14" height="7" fill="#090C10"/>
+
+            <!-- body -->
+            <rect x="19" y="15" width="7" height="23" fill="#E6EDF3"/>
+            <rect x="26" y="10" width="12" height="28" fill="#F5F7FA"/>
+            <rect x="38" y="16" width="6" height="14" fill="#F5F7FA"/>
+            <rect x="26" y="31" width="12" height="7" fill="#D8DEE4"/>
+
+            <!-- nose -->
+            <rect x="38" y="10" width="8" height="7" fill="#F5F7FA"/>
+            <rect x="44" y="5" width="7" height="11" fill="#F5F7FA"/>
+            <rect x="50" y="3" width="7" height="8" fill="#22B8F0"/>
+            <rect x="50" y="11" width="5" height="5" fill="#1098D4"/>
+
+            <!-- window -->
+            <rect x="25" y="16" width="7" height="7" fill="#090C10"/>
+            <rect x="27" y="17" width="5" height="5" fill="#62D8FF"/>
+
+            <!-- fins -->
+            <rect x="12" y="28" width="7" height="11" fill="#FF334C"/>
+            <rect x="8" y="32" width="6" height="7" fill="#D90429"/>
+            <rect x="32" y="37" width="9" height="7" fill="#FF334C"/>
+            <rect x="38" y="34" width="7" height="7" fill="#D90429"/>
+
+            <!-- little black exhaust pixels -->
+            <rect x="4" y="18" width="6" height="5" fill="#090C10"/>
+            <rect x="-2" y="23" width="5" height="5" fill="#1098D4" opacity=".75"/>
+          </g>
+        </g>
       </g>
 
       <g class="boot4">
