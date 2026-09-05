@@ -1,0 +1,149 @@
+<svg width="1000" height="430" viewBox="0 0 1000 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1000" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0F14"/>
+      <stop offset="1" stop-color="#111821"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#7EE787" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7EE787" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#7EE787" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .muted { fill: #7D8590; }
+    .text { fill: #E6EDF3; }
+    .accent { fill: #7EE787; }
+    .stroke-accent { stroke: #7EE787; }
+    .blink { animation: blink 1s steps(1) infinite; }
+    .pulse { transform-origin: center; animation: pulse 2.2s ease-in-out infinite; }
+    .pulse2 { transform-origin: center; animation: pulse 2.2s ease-in-out .7s infinite; }
+    .float { animation: float 5s ease-in-out infinite; }
+    .float2 { animation: float 6s ease-in-out -2s infinite; }
+    .scanline { animation: scanline 5s linear infinite; }
+    .boot1 { animation: appear 8s steps(1) infinite; }
+    .boot2 { opacity: 0; animation: appear2 8s steps(1) infinite; }
+    .boot3 { opacity: 0; animation: appear3 8s steps(1) infinite; }
+    .boot4 { opacity: 0; animation: appear4 8s steps(1) infinite; }
+    .orbit { transform-origin: 790px 222px; animation: orbit 18s linear infinite; }
+    .orbit-rev { transform-origin: 790px 222px; animation: orbitrev 26s linear infinite; }
+    @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+    @keyframes pulse { 0%,100%{opacity:.35; transform:scale(.92)} 50%{opacity:1; transform:scale(1.08)} }
+    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-7px)} }
+    @keyframes scanline { from{transform:translateY(-90px)} to{transform:translateY(520px)} }
+    @keyframes appear { 0%,100%{opacity:1} }
+    @keyframes appear2 { 0%,16%{opacity:0} 17%,100%{opacity:1} }
+    @keyframes appear3 { 0%,34%{opacity:0} 35%,100%{opacity:1} }
+    @keyframes appear4 { 0%,54%{opacity:0} 55%,100%{opacity:1} }
+    @keyframes orbit { to { transform:rotate(360deg) } }
+    @keyframes orbitrev { to { transform:rotate(-360deg) } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="998" height="428" rx="22" fill="url(#panel)" stroke="#30363D" stroke-width="2"/>
+  <rect x="2" y="46" width="996" height="382" fill="url(#grid)"/>
+
+  <!-- window chrome -->
+  <circle cx="27" cy="24" r="6" fill="#FF7B72"/>
+  <circle cx="48" cy="24" r="6" fill="#D29922"/>
+  <circle cx="69" cy="24" r="6" fill="#7EE787"/>
+  <text x="500" y="29" text-anchor="middle" class="mono muted" font-size="12">peter@berlin — ~/profile — zsh</text>
+  <text x="930" y="29" class="mono accent pulse" font-size="11">● ONLINE</text>
+
+  <!-- left terminal -->
+  <g transform="translate(50 88)">
+    <text class="mono muted" font-size="13" x="0" y="0">LAST LOGIN: BERLIN / DE</text>
+
+    <g class="boot1">
+      <text class="mono accent" font-size="18" x="0" y="42">peter@github</text>
+      <text class="mono muted" font-size="18" x="128" y="42">:</text>
+      <text class="mono text" font-size="18" x="142" y="42">~$ whoami</text>
+    </g>
+
+    <g class="boot2">
+      <text class="mono text" font-size="30" font-weight="700" x="0" y="84">PETER MÖLZER</text>
+      <text class="mono muted" font-size="14" x="0" y="109">FULL-STACK SOFTWARE DEVELOPER</text>
+    </g>
+
+    <g class="boot3">
+      <text class="mono accent" font-size="18" x="0" y="151">peter@github</text>
+      <text class="mono muted" font-size="18" x="128" y="151">:</text>
+      <text class="mono text" font-size="18" x="142" y="151">~$ cat focus.txt</text>
+      <text class="mono text" font-size="14" x="0" y="183">building useful systems from UI → infrastructure</text>
+      <text class="mono muted" font-size="14" x="0" y="207">TypeScript · React · Next.js · C/C++ · Docker</text>
+    </g>
+
+    <g class="boot4">
+      <text class="mono accent" font-size="18" x="0" y="249">peter@github</text>
+      <text class="mono muted" font-size="18" x="128" y="249">:</text>
+      <text class="mono text" font-size="18" x="142" y="249">~$ ./explore</text>
+      <text class="mono accent" font-size="14" x="0" y="281">[ READY ]</text>
+      <text class="mono text" font-size="14" x="88" y="281">scroll down and run a command</text>
+      <rect class="blink" x="0" y="300" width="10" height="19" rx="1" fill="#7EE787"/>
+    </g>
+  </g>
+
+  <!-- divider -->
+  <line x1="605" y1="72" x2="605" y2="385" stroke="#30363D" stroke-dasharray="4 8"/>
+
+  <!-- right orbital system map -->
+  <g>
+    <circle cx="790" cy="222" r="118" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <circle cx="790" cy="222" r="82" stroke="#FFFFFF" stroke-opacity="0.09" stroke-dasharray="3 8"/>
+    <circle cx="790" cy="222" r="42" fill="#0D1117" stroke="#7EE787" stroke-opacity="0.85" filter="url(#glow)"/>
+    <circle cx="790" cy="222" r="7" fill="#7EE787" class="pulse"/>
+    <text x="790" y="281" text-anchor="middle" class="mono text" font-size="16" font-weight="700">PETER.OS</text>
+    <text x="790" y="300" text-anchor="middle" class="mono muted" font-size="11">v42.2026</text>
+
+    <g class="orbit">
+      <circle cx="790" cy="104" r="8" fill="#0D1117" stroke="#7EE787"/>
+      <circle cx="790" cy="104" r="3" fill="#7EE787" class="pulse2"/>
+    </g>
+    <g class="orbit-rev">
+      <circle cx="872" cy="222" r="7" fill="#0D1117" stroke="#E6EDF3" stroke-opacity="0.7"/>
+      <circle cx="872" cy="222" r="2.5" fill="#E6EDF3"/>
+    </g>
+
+    <g class="float">
+      <rect x="650" y="112" width="108" height="40" rx="8" fill="#0D1117" stroke="#30363D"/>
+      <text x="704" y="128" text-anchor="middle" class="mono muted" font-size="9">PROCESS</text>
+      <text x="704" y="143" text-anchor="middle" class="mono text" font-size="11">WEB / UI</text>
+    </g>
+    <g class="float2">
+      <rect x="839" y="112" width="112" height="40" rx="8" fill="#0D1117" stroke="#30363D"/>
+      <text x="895" y="128" text-anchor="middle" class="mono muted" font-size="9">PROCESS</text>
+      <text x="895" y="143" text-anchor="middle" class="mono text" font-size="11">SYSTEMS</text>
+    </g>
+    <g class="float2">
+      <rect x="647" y="312" width="122" height="40" rx="8" fill="#0D1117" stroke="#30363D"/>
+      <text x="708" y="328" text-anchor="middle" class="mono muted" font-size="9">PROCESS</text>
+      <text x="708" y="343" text-anchor="middle" class="mono text" font-size="11">LOCAL AI</text>
+    </g>
+    <g class="float">
+      <rect x="834" y="312" width="126" height="40" rx="8" fill="#0D1117" stroke="#30363D"/>
+      <text x="897" y="328" text-anchor="middle" class="mono muted" font-size="9">PROCESS</text>
+      <text x="897" y="343" text-anchor="middle" class="mono text" font-size="11">INFRA / CLI</text>
+    </g>
+
+    <line x1="758" y1="152" x2="775" y2="185" stroke="#7EE787" stroke-opacity="0.22"/>
+    <line x1="839" y1="151" x2="810" y2="185" stroke="#7EE787" stroke-opacity="0.22"/>
+    <line x1="769" y1="312" x2="780" y2="260" stroke="#7EE787" stroke-opacity="0.22"/>
+    <line x1="834" y1="312" x2="804" y2="260" stroke="#7EE787" stroke-opacity="0.22"/>
+  </g>
+
+  <!-- scan -->
+  <rect class="scanline" x="2" y="46" width="996" height="70" fill="url(#scan)" pointer-events="none"/>
+
+  <text x="950" y="404" text-anchor="end" class="mono muted" font-size="9">NO JS · SELF-CONTAINED SVG</text>
+</svg>
