@@ -1,49 +1,197 @@
-## 👩🏻‍💻 Hello, World! I'm Peter Mölzer 🌍
+<div align="center">
 
-Based in Berlin, I successfully graduated in **Software Engineering** at the innovative **[42 Berlin](https://www.42network.org/)** programming school and in Economics at the Humboldt University. My goal is to bridge the gap between business strategy and technical execution, building impactful software solutions.
+<img src="./assets/hero.svg" width="100%" alt="Animated Peter Mölzer developer console" />
 
-### 🚀 My Focus at 42 Berlin
+### `peter@berlin:~$ ./profile --interactive`
 
-At 42, I immersed myself in a project-based curriculum, tackling challenges in:
-*   **Core Programming:** Algorithms, Data Structures, C, C++, NextJS, Docker, TypesScript, React
-*   **Systems Engineering:** Linux Kernel, Virtual Machines, Docker Containerization
-*   **Networking Fundamentals:** IP Addressing, Subnetting, Routing
-*   **Development Practices:** Shell Scripting, Git/Version Control, Agile Methodologies (via peer learning, code reviews, pair programming)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0D1117?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/peter-moelzer/)
+[![42 Berlin](https://img.shields.io/badge/42_Berlin-alumni-0D1117?style=flat-square&logo=42&logoColor=white)](https://42berlin.de/)
+[![GitHub](https://img.shields.io/badge/GitHub-peterle95-0D1117?style=flat-square&logo=github&logoColor=white)](https://github.com/peterle95)
 
-### 📝 Languages & Tools
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![C](https://img.shields.io/badge/-C-00599C?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white) 
-![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) 
-![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![Vim](https://img.shields.io/badge/-Vim-019733?style=flat&logo=vim&logoColor=white)
-### 💡 My Journey to Code
+</div>
 
-My path to software development builds on a unique foundation. Originally from Genoa, Italy 🇮🇹🇦🇹, I hold a **Bachelor of Science in Economics** from Humboldt-Universität zu Berlin and gained practical experience analyzing markets and building strategic partnerships at companies like **Klarna** and **Clark**. It was this experience, combined with a fascination for how technology can transform data into actionable insights, that ignited my passion and drove me to fully transition into software engineering. I bring this blend of analytical thinking and business understanding to my technical pursuits.
+---
 
-### 🌐 Languages
+## `> help`
 
-*   🇮🇹 Italian (Native)
-*   🇩🇪 German (C2 - Proficient)
-*   🇬🇧 English (C2 - Proficient)
-*   🇷🇺 Russian (B1 - Intermediate)
+I’m a full-stack software developer in Berlin with a background in economics and business development. I like projects where product thinking meets low-level understanding: web apps, systems programming, infrastructure, automation, local-first tools, and AI-assisted workflows.
 
-### 🎸 Outside of Code
+Instead of reading this top-to-bottom, **pick a command**.
 
-When I'm not at the keyboard, I enjoy reading, writing, playing the guitar, DJing, and exploring new places.
+<details>
+<summary><code>whoami</code> — background, languages, and the short version</summary>
 
-### 📫 Let's Connect!
+<br />
 
-I'm always open to connecting with fellow developers, or potential collaborators. Feel free to reach out!
+```txt
+NAME        Peter Mölzer
+LOCATION    Berlin, Germany
+EDUCATION   42 Berlin · Humboldt-Universität zu Berlin
+FOCUS       Full-stack engineering · systems · automation · local-first tools
+BACKGROUND  Software engineering + economics + business development
+```
 
-*   **LinkedIn:** [Peter Mölzer](https://www.linkedin.com/in/peter-moelzer/) ✨
+Before moving fully into software engineering, I worked around markets, strategy, and partnerships. That background still shapes how I build: I care about what the software is for, not only whether it compiles.
+
+**Languages**
+
+```txt
+Italian   ██████████ native
+German    ██████████ C2
+English   ██████████ C2
+Russian   ██████░░░░ B1
+```
+
+</details>
+
+<details>
+<summary><code>ls ~/projects --featured</code> — selected work</summary>
+
+<br />
+
+### `webserv/`
+
+> HTTP server built in C++ as part of 42 Berlin.
+
+A systems-heavy project focused on request parsing, sockets, multiplexing, HTTP behavior, CGI, and server architecture.
+
+**Stack:** `C++` `HTTP` `Sockets` `select()` `CGI`
+
+[`cd webserv`](https://github.com/peterle95/webserv)
+
+---
+
+### `Inception/`
+
+> Containerized web infrastructure built from the ground up.
+
+NGINX with TLS 1.3, WordPress/PHP-FPM, MariaDB, persistent volumes, secrets, and custom networking orchestrated with Docker Compose.
+
+**Stack:** `Docker` `Docker Compose` `NGINX` `MariaDB` `PHP-FPM` `Linux`
+
+[`cd Inception`](https://github.com/peterle95/Inception)
+
+---
+
+### `printing-press-clis/`
+
+> A WSL-native monorepo for generated and hand-authored command-line tools.
+
+A collection of independent Go, Node.js, and Python CLIs with bootstrap, verification, audit, and Windows runtime tooling.
+
+**Stack:** `CLI tooling` `WSL` `Go` `Node.js` `Python` `Automation`
+
+[`cd printing-press-clis`](https://github.com/peterle95/printing-press-clis)
+
+---
+
+### `fermentStation/`
+
+> Local-first fermentation tracking for Android and desktop.
+
+A cross-platform household tool built around local ownership of data rather than cloud dependency.
+
+**Stack:** `TypeScript` `Tauri` `Capacitor` `Android` `Desktop`
+
+[`cd fermentStation`](https://github.com/peterle95/fermentStation)
+
+---
+
+### `shellfolio/`
+
+> A portfolio presented as a shell.
+
+Yes, the console theme above has precedent.
+
+[`cd shellfolio`](https://github.com/peterle95/shellfolio)
+
+</details>
+
+<details>
+<summary><code>cat stack.json</code> — technologies I actually use</summary>
+
+<br />
+
+```json
+{
+  "frontend": ["TypeScript", "React", "Next.js", "HTML", "CSS"],
+  "backend": ["Node.js", "C", "C++", "SQL"],
+  "infra": ["Docker", "NGINX", "Linux", "GitHub Actions"],
+  "data": ["PostgreSQL", "MariaDB", "MySQL", "MongoDB"],
+  "tools": ["Git", "Bash", "Vim", "WSL"],
+  "currently_interested_in": [
+    "local AI",
+    "developer tooling",
+    "automation",
+    "local-first software",
+    "systems design"
+  ]
+}
+```
+
+</details>
+
+<details>
+<summary><code>cat philosophy.md</code> — how I think about software</summary>
+
+<br />
+
+```txt
+01  Understand the layer below the abstraction you are using.
+02  Build the smallest useful thing before building the clever thing.
+03  Automate repetitive work when the automation stays understandable.
+04  Prefer tools that give users ownership of their data.
+05  A technically elegant product that solves the wrong problem still fails.
+```
+
+</details>
+
+<details>
+<summary><code>cat /etc/peter/offline</code> — outside of code</summary>
+
+<br />
+
+Reading, writing, history, geopolitics, DJing, guitar, languages, and exploring new places.
+
+</details>
+
+---
+
+## `> ps aux | grep peter`
+
+```txt
+PID   STATUS    PROCESS
+042   running   building software that is useful outside a demo
+117   running   exploring local AI + private workflows
+214   running   improving systems knowledge
+365   daemon    learning Russian
+808   daemon    reading too many things at once
+```
+
+---
+
+## `> ./guestbook`
+
+GitHub READMEs cannot execute arbitrary JavaScript, so I prefer **real GitHub-native interaction** over fake UI.
+
+**Say hello, leave a question, recommend a project, or drop something interesting:**
+
+[**`open guestbook →`**](https://github.com/peterle95/peterle95/issues/new?title=guestbook%3A%20hello%20Peter&body=Leave%20a%20message%20here%20%F0%9F%91%8B)
+
+---
+
+<div align="center">
+
+```txt
+┌─────────────────────────────────────────────────────────┐
+│  status: open to interesting software opportunities     │
+│  location: Berlin                                       │
+│  mode: build · learn · ship                             │
+└─────────────────────────────────────────────────────────┘
+```
+
+**[`linkedin`](https://www.linkedin.com/in/peter-moelzer/)** · **[`github`](https://github.com/peterle95)**
+
+<sub>Built as a README, not a landing page. No JavaScript required.</sub>
+
+</div>
