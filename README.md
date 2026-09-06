@@ -14,7 +14,7 @@
 
 ---
 
-## `> help`
+## `> --help`
 
 I’m a full-stack software developer in Berlin with a background in economics and business development. I like projects where product thinking meets low-level understanding: web apps, systems programming, infrastructure, automation, local-first tools, and AI-assisted workflows.
 
@@ -167,7 +167,6 @@ PID   STATUS    PROCESS
 117   running   exploring local AI + private workflows
 214   running   improving systems knowledge
 365   daemon    learning Russian
-808   daemon    reading too many things at once
 ```
 
 ---
@@ -182,18 +181,14 @@ GitHub READMEs cannot execute arbitrary JavaScript, so I prefer **real GitHub-na
 
 ---
 
-<div align="center">
-
-```txt
 ┌─────────────────────────────────────────────────────────┐
 │  status: open to interesting software opportunities     │
 │  location: Berlin                                       │
 │  mode: build · learn · ship                             │
 └─────────────────────────────────────────────────────────┘
+
 ```
 
 **[`linkedin`](https://www.linkedin.com/in/peter-moelzer/)** · **[`github`](https://github.com/peterle95)**
-
-<sub>Built as a README, not a landing page. No JavaScript required.</sub>
 
 </div>
