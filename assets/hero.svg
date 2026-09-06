@@ -1,6 +1,6 @@
 <svg width="1120" height="720" viewBox="0 0 1120 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Peter Mölzer terminal portfolio</title>
-  <desc id="desc">A terminal-style profile for Peter Mölzer, a software developer in Berlin.</desc>
+  <desc id="desc">A terminal-style profile for Peter Mölzer, a Berlin-based software engineer with a background in economics and European fintech.</desc>
   <defs>
     <style>
       .sans { font-family: Inter, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
@@ -9,6 +9,7 @@
       .muted { fill: oklch(0.65 0.025 245); }
       .accent { fill: oklch(0.79 0.17 145); }
       .label { font-size: 12px; letter-spacing: 0.96px; text-transform: uppercase; }
+      .toolkit rect { fill: none; }
       .logos image { transform-box: fill-box; transform-origin: center; animation: tilt 3s ease-in-out infinite; }
       .logos image:nth-child(2) { animation-delay: -0.23s; }
       .logos image:nth-child(3) { animation-delay: -0.61s; }
@@ -69,8 +70,8 @@
     <text x="56" y="240" class="sans fg" font-size="90" font-weight="600" letter-spacing="-2.7">Peter</text>
     <text x="56" y="332" class="sans fg" font-size="90" font-weight="600" letter-spacing="-2.7">Mölzer</text>
 
-    <text x="56" y="405" class="sans fg" font-size="18" font-weight="550">Software developer</text>
-    <text x="222" y="405" class="sans muted" font-size="18"> building useful systems from UI to infrastructure.</text>
+    <text x="56" y="405" class="sans fg" font-size="18" font-weight="550">Software engineer</text>
+    <text x="222" y="405" class="sans muted" font-size="18"> with a background in economics and European fintech.</text>
 
     <g transform="translate(802 81)">
       <text x="0" y="0" class="mono muted label">LOCATION</text>
@@ -80,15 +81,15 @@
 
     <g transform="translate(802 189)">
       <text x="0" y="0" class="mono muted label">RUNTIME / TOOLKIT</text>
-      <g class="mono muted" font-size="12">
+      <g class="mono muted toolkit" font-size="12">
         <rect x="0.5" y="22.5" width="86" height="31" rx="7.5" stroke="oklch(0.40 0.022 245)"/>
         <text x="9" y="43">TypeScript</text>
         <rect x="94.5" y="22.5" width="53" height="31" rx="7.5" stroke="oklch(0.40 0.022 245)"/>
         <text x="103" y="43">React</text>
         <rect x="155.5" y="22.5" width="67" height="31" rx="7.5" stroke="oklch(0.40 0.022 245)"/>
         <text x="164" y="43">Next.js</text>
-        <rect x="230.5" y="22.5" width="56" height="31" rx="7.5" stroke="oklch(0.40 0.022 245)"/>
-        <text x="239" y="43">C/C++</text>
+        <rect x="230.5" y="22.5" width="61" height="31" rx="7.5" stroke="oklch(0.40 0.022 245)"/>
+        <text x="239" y="43">Prisma</text>
         <rect x="0.5" y="61.5" width="61" height="31" rx="7.5" stroke="oklch(0.40 0.022 245)"/>
         <text x="9" y="82">Docker</text>
       </g>
