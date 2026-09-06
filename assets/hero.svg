@@ -13,8 +13,8 @@
       .logos image:nth-child(even) { animation-delay: -1.5s; }
       .logos image:nth-child(3n) { animation-duration: 3.6s; }
       @keyframes tilt {
-        0%, 100% { transform: rotate(-3deg); }
-        50% { transform: rotate(3deg); }
+        0%, 100% { transform: rotate(-5deg); }
+        50% { transform: rotate(5deg); }
       }
       @media (prefers-reduced-motion: reduce) {
         .logos image { animation: none; }
