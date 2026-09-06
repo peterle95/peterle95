@@ -2,10 +2,8 @@
 
 <img src="./assets/hero.svg" width="100%" alt="Animated Peter Mölzer developer console" />
 
-### `peter@berlin:~$ ./profile --interactive`
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0D1117?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/peter-moelzer/)
-[![42 Berlin](https://img.shields.io/badge/42_Berlin-alumni-0D1117?style=flat-square&logo=42&logoColor=white)](https://42berlin.de/)
+[![42 alumni](https://img.shields.io/badge/-alumni-0D1117?style=flat-square&logo=42&logoColor=white)](https://42berlin.de/)
 [![GitHub](https://img.shields.io/badge/GitHub-peterle95-0D1117?style=flat-square&logo=github&logoColor=white)](https://github.com/peterle95)
 
 </div>
