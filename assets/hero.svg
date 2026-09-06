@@ -14,16 +14,6 @@
       <stop offset="0.5" stop-color="#7EE787" stop-opacity="0.95"/>
       <stop offset="1" stop-color="#7EE787" stop-opacity="0.10"/>
     </linearGradient>
-    <linearGradient id="radarBeam" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#7EE787" stop-opacity="0.00"/>
-      <stop offset="0.65" stop-color="#7EE787" stop-opacity="0.05"/>
-      <stop offset="1" stop-color="#7EE787" stop-opacity="0.28"/>
-    </linearGradient>
-    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7EE787" stop-opacity="0.75"/>
-      <stop offset="60%" stop-color="#7EE787" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#7EE787" stop-opacity="0"/>
-    </radialGradient>
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
       <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
     </pattern>
@@ -35,7 +25,7 @@
       </feMerge>
     </filter>
     <clipPath id="terminalClip">
-      <rect x="40" y="72" width="498" height="314" rx="14"/>
+      <rect x="40" y="72" width="920" height="314" rx="14"/>
     </clipPath>
   </defs>
 
@@ -45,9 +35,6 @@
     .muted { fill: #7D8590; }
     .accent { fill: #7EE787; }
     .blink { animation: blink 1.1s steps(1) infinite; }
-    .floatA { animation: floatA 5.4s ease-in-out infinite; }
-    .floatB { animation: floatB 6.3s ease-in-out -1.2s infinite; }
-    .orbitSlow { animation: spin 20s linear infinite; transform-origin: 786px 220px; }
     .scanline { animation: scanline 6s linear infinite; }
     .boot1 { animation: show1 12s steps(1) infinite; }
     .boot2 { opacity: 0; animation: show2 12s steps(1) infinite; }
@@ -56,11 +43,6 @@
     .boot5 { opacity: 0; animation: show5 12s steps(1) infinite; }
     .type1 { opacity: 0; animation: type1 12s steps(1) infinite; }
     .type2 { opacity: 0; animation: type2 12s steps(1) infinite; }
-    .bar1 { animation: barA 2.6s ease-in-out infinite; transform-origin: center bottom; }
-    .bar2 { animation: barB 3.1s ease-in-out infinite; transform-origin: center bottom; }
-    .bar3 { animation: barC 2.3s ease-in-out infinite; transform-origin: center bottom; }
-    .bar4 { animation: barD 3.5s ease-in-out infinite; transform-origin: center bottom; }
-    .connPulse { animation: connPulse 2.8s ease-in-out infinite; }
     .rocketLaunch {
       opacity: 0;
       animation: rocketLaunch 5.8s cubic-bezier(.32,.05,.18,1) 1.7s 1 both;
@@ -70,9 +52,6 @@
     .rocketFlameOuter { animation: flameOuter .18s steps(2,end) infinite; transform-origin: 5px 32px; }
     .rocketFlameInner { animation: flameInner .14s steps(2,end) infinite; transform-origin: 7px 31px; }
     @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
-    @keyframes floatA { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-6px)} }
-    @keyframes floatB { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(7px)} }
-    @keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
     @keyframes scanline { from{transform:translateY(-80px)} to{transform:translateY(500px)} }
     @keyframes show1 { 0%,100%{opacity:1} }
     @keyframes show2 { 0%,10%{opacity:0} 11%,100%{opacity:1} }
@@ -81,11 +60,6 @@
     @keyframes show5 { 0%,62%{opacity:0} 63%,100%{opacity:1} }
     @keyframes type1 { 0%,100%{opacity:0} 16%,27%{opacity:1} }
     @keyframes type2 { 0%,100%{opacity:0} 30%,42%{opacity:1} }
-    @keyframes barA { 0%,100%{transform:scaleY(.35)} 50%{transform:scaleY(1)} }
-    @keyframes barB { 0%,100%{transform:scaleY(.90)} 50%{transform:scaleY(.28)} }
-    @keyframes barC { 0%,100%{transform:scaleY(.45)} 50%{transform:scaleY(.84)} }
-    @keyframes barD { 0%,100%{transform:scaleY(.20)} 50%{transform:scaleY(.95)} }
-    @keyframes connPulse { 0%,100%{stroke-opacity:.12} 50%{stroke-opacity:.35} }
     @keyframes rocketLaunch {
       0%   { opacity: 0; transform: translate(0px, 12px) rotate(-8deg) scale(.92); }
       7%   { opacity: 1; transform: translate(0px, 0px) rotate(-8deg) scale(1); }
@@ -114,12 +88,12 @@
   <circle cx="27" cy="24" r="6" fill="#FF7B72"/>
   <circle cx="48" cy="24" r="6" fill="#D29922"/>
   <circle cx="69" cy="24" r="6" fill="#7EE787"/>
-  <text x="500" y="29" text-anchor="middle" class="mono muted" font-size="12">peter@berlin — ~/profile — zsh</text>
+  <text x="500" y="29" text-anchor="middle" class="mono muted" font-size="12">peter@berlin</text>
   <text x="928" y="29" class="mono accent" font-size="11">● ONLINE</text>
 
   <g clip-path="url(#terminalClip)">
-    <rect x="40" y="72" width="498" height="314" rx="14" fill="#0D1117" fill-opacity="0.46" stroke="#30363D"/>
-    <rect x="41" y="73" width="496" height="42" fill="#0B1119" fill-opacity="0.9"/>
+    <rect x="40" y="72" width="920" height="314" rx="14" fill="#0D1117" fill-opacity="0.46" stroke="#30363D"/>
+    <rect x="41" y="73" width="918" height="42" fill="#0B1119" fill-opacity="0.9"/>
     <text x="60" y="100" class="mono muted" font-size="12">terminal://profile</text>
     <text x="447" y="100" class="mono muted" font-size="12">session: active</text>
 
@@ -229,74 +203,6 @@
         <text class="mono accent" font-size="14" x="0" y="377">[ READY ]</text>
         <text class="mono text" font-size="14" x="88" y="377">scroll down and run a command</text>
         <rect class="blink" x="368" y="361" width="10" height="18" rx="1" fill="#7EE787"/>
-      </g>
-    </g>
-  </g>
-
-  <line x1="560" y1="72" x2="560" y2="386" stroke="#30363D" stroke-dasharray="4 8"/>
-
-  <g>
-    <text x="595" y="94" class="mono muted" font-size="12">system map / live modules</text>
-
-    <circle cx="786" cy="220" r="126" stroke="#FFFFFF" stroke-opacity="0.06"/>
-    <circle cx="786" cy="220" r="88" stroke="#FFFFFF" stroke-opacity="0.10" stroke-dasharray="4 10" class="orbitSlow"/>
-    <circle cx="786" cy="220" r="52" stroke="#7EE787" stroke-opacity="0.16"/>
-
-    <g class="beam">
-      <path d="M786 220 L902 175 A126 126 0 0 0 866 123 Z" fill="url(#radarBeam)"/>
-    </g>
-
-    <circle cx="786" cy="220" r="36" fill="#0D1117" stroke="#7EE787" stroke-opacity="0.92" filter="url(#softGlow)"/>
-    <circle cx="786" cy="220" r="30" fill="url(#coreGlow)" opacity="0.55"/>
-    <circle cx="786" cy="220" r="7" fill="#7EE787"/>
-
-    <text x="786" y="277" text-anchor="middle" class="mono text" font-size="16" font-weight="700">PETER.OS</text>
-    <text x="786" y="296" text-anchor="middle" class="mono muted" font-size="11">v2 / profile runtime</text>
-
-    <line x1="714" y1="151" x2="760" y2="194" stroke="#7EE787" stroke-opacity="0.18" class="connPulse"/>
-    <line x1="858" y1="152" x2="812" y2="193" stroke="#7EE787" stroke-opacity="0.18" class="connPulse"/>
-    <line x1="715" y1="292" x2="760" y2="246" stroke="#7EE787" stroke-opacity="0.18" class="connPulse"/>
-    <line x1="859" y1="292" x2="812" y2="246" stroke="#7EE787" stroke-opacity="0.18" class="connPulse"/>
-
-    <g class="floatA">
-      <rect x="648" y="114" width="116" height="42" rx="10" fill="#0D1117" stroke="#30363D"/>
-      <text x="706" y="130" text-anchor="middle" class="mono muted" font-size="9">PROCESS</text>
-      <text x="706" y="145" text-anchor="middle" class="mono text" font-size="11">WEB / UI</text>
-    </g>
-
-    <g class="floatB">
-      <rect x="809" y="114" width="126" height="42" rx="10" fill="#0D1117" stroke="#30363D"/>
-      <text x="872" y="130" text-anchor="middle" class="mono muted" font-size="9">PROCESS</text>
-      <text x="872" y="145" text-anchor="middle" class="mono text" font-size="11">SYSTEMS</text>
-    </g>
-
-    <g class="floatB">
-      <rect x="648" y="284" width="126" height="42" rx="10" fill="#0D1117" stroke="#30363D"/>
-      <text x="711" y="300" text-anchor="middle" class="mono muted" font-size="9">PROCESS</text>
-      <text x="711" y="315" text-anchor="middle" class="mono text" font-size="11">LOCAL AI</text>
-    </g>
-
-    <g class="floatA">
-      <rect x="809" y="284" width="132" height="42" rx="10" fill="#0D1117" stroke="#30363D"/>
-      <text x="875" y="300" text-anchor="middle" class="mono muted" font-size="9">PROCESS</text>
-      <text x="875" y="315" text-anchor="middle" class="mono text" font-size="11">INFRA / CLI</text>
-    </g>
-
-    <g>
-      <circle cx="786" cy="94" r="7" fill="#0D1117" stroke="#7EE787"/>
-      <circle cx="786" cy="94" r="3" fill="#7EE787"/>
-    </g>
-
-    <g transform="translate(736 346)">
-      <rect x="0" y="0" width="101" height="38" rx="10" fill="#0D1117" stroke="#30363D"/>
-      <text x="50.5" y="13" text-anchor="middle" class="mono muted" font-size="8">activity</text>
-      <g transform="translate(19 31)" fill="#7EE787" filter="url(#softGlow)">
-        <rect class="bar1" x="0" y="-12" width="6" height="12" rx="2"/>
-        <rect class="bar2" x="12" y="-20" width="6" height="20" rx="2"/>
-        <rect class="bar3" x="24" y="-9" width="6" height="9" rx="2"/>
-        <rect class="bar4" x="36" y="-17" width="6" height="17" rx="2"/>
-        <rect class="bar2" x="48" y="-24" width="6" height="24" rx="2"/>
-        <rect class="bar1" x="60" y="-14" width="6" height="14" rx="2"/>
       </g>
     </g>
   </g>
