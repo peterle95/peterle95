@@ -1,6 +1,6 @@
 <svg width="1120" height="720" viewBox="0 0 1120 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Peter Mölzer terminal portfolio</title>
-  <desc id="desc">A terminal-style profile for Peter Mölzer, a Berlin-based software engineer with a background in economics and European fintech.</desc>
+  <desc id="desc">A terminal-style profile for Peter Mölzer, a Berlin-based software engineer, 42 Berlin alumnus, and economics graduate who builds full-stack products, developer tools, and infrastructure.</desc>
   <defs>
     <style>
       .sans { font-family: Inter, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
@@ -72,6 +72,12 @@
 
     <text x="56" y="405" class="sans fg" font-size="18" font-weight="550">Software engineer</text>
     <text x="222" y="405" class="sans muted" font-size="18"> with a background in economics and European fintech.</text>
+    <g class="sans muted" font-size="16">
+      <text x="56" y="460">42 Berlin alumnus with a B.Sc. in Economics.</text>
+      <text x="56" y="492">Before software, I worked in fintech, partnerships, and business development.</text>
+      <text x="56" y="524">Now I build full-stack products, developer tools, and infrastructure.</text>
+      <text x="56" y="556">I care about useful systems, clear tradeoffs, and understanding the layer below.</text>
+    </g>
 
     <g transform="translate(802 81)">
       <text x="0" y="0" class="mono muted label">LOCATION</text>

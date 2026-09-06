@@ -2,7 +2,7 @@
 
 ## Executive Recommendation
 
-Update only the active SVG hero, `assets/hero.svg`. Use the vault-supported positioning "Software engineer with a background in economics and European fintech" and present TypeScript, React, Next.js, Prisma, and Docker as the five core toolkit chips.
+Update only the active SVG hero, `assets/hero.svg`. Use the vault-supported positioning "Software engineer with a background in economics and European fintech," add a short narrative about 42 Berlin, economics, prior business work, and current engineering focus, and present TypeScript, React, Next.js, Prisma, and Docker as the five core toolkit chips.
 
 This is the smallest coherent change because the README directly embeds the SVG, the existing five-chip geometry already fits the selected stack, and the broader icon cloud still represents secondary technologies such as C++, PostgreSQL, and Python.
 
@@ -123,6 +123,7 @@ Candidate A wins because it satisfies the request with the smallest rendered-sur
 
 - Accessible description: identify Peter as a Berlin-based software engineer with economics and European fintech experience.
 - Visible `whoami` bio: `Software engineer with a background in economics and European fintech.`
+- About text: summarize 42 Berlin and economics education, prior fintech/partnerships/business-development work, and the current full-stack products, developer tools, and infrastructure focus.
 - Core toolkit: `TypeScript`, `React`, `Next.js`, `Prisma`, `Docker`.
 - Broad icon cloud: unchanged, preserving C++, PostgreSQL, Python, infrastructure, and editor/tooling context.
 
@@ -131,9 +132,9 @@ Candidate A wins because it satisfies the request with the smallest rendered-sur
 All source changes are in [`assets/hero.svg`](../assets/hero.svg):
 
 - Line 3 synchronizes the accessible description with the visible bio.
-- Lines 73-74 update the visible `whoami` response.
-- Lines 91-92 replace `C/C++` with `Prisma` and widen the chip from 56 to 61 units.
-- Lines 12 and 84 fix an existing SVG inheritance issue that made toolkit labels gray-on-gray: rectangles now explicitly use `fill: none`, while text inherits the muted foreground color.
+- Lines 73-80 provide the visible `whoami` summary and expanded about text.
+- The toolkit replaces `C/C++` with `Prisma` and widens the chip from 56 to 61 units.
+- The scoped `.toolkit rect` rule fixes an existing SVG inheritance issue that made toolkit labels gray-on-gray: rectangles now explicitly use `fill: none`, while text inherits the muted foreground color.
 
 No README, prototype, backup, logo, animation, or standalone PNG changes are required.
 
@@ -158,6 +159,7 @@ The SVG was rendered at its native `1120 x 720` dimensions with headless Chrome.
 
 - the bio stays within the left pane;
 - the emphasized and muted bio segments do not overlap;
+- all four about lines fit within the marked lower-left area and remain above the footer divider;
 - all five toolkit labels are visible and contained by their chips;
 - the widened Prisma chip remains inside the right pane;
 - all 11 logos still render.
