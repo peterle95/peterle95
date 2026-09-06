@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "kind": "html",
+  "title": "terminal-portfolio.html",
+  "entry": "terminal-portfolio.html",
+  "renderer": "html",
+  "status": "complete",
+  "exports": [
+    "html",
+    "pdf",
+    "zip"
+  ],
+  "createdAt": "2026-09-06T09:08:35.659Z",
+  "updatedAt": "2026-09-06T09:16:10.807Z",
+  "metadata": {
+    "inferred": true,
+    "reconciled": true
+  }
+}

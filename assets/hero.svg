@@ -9,13 +9,15 @@
       .muted { fill: oklch(0.65 0.025 245); }
       .accent { fill: oklch(0.79 0.17 145); }
       .label { font-size: 12px; letter-spacing: 0.96px; text-transform: uppercase; }
-      .logos { animation: sway 4s ease-in-out infinite; }
-      @keyframes sway {
-        0%, 100% { transform: translateX(-6px); }
-        50% { transform: translateX(6px); }
+      .logos image { transform-box: fill-box; transform-origin: center; animation: tilt 3s ease-in-out infinite; }
+      .logos image:nth-child(even) { animation-delay: -1.5s; }
+      .logos image:nth-child(3n) { animation-duration: 3.6s; }
+      @keyframes tilt {
+        0%, 100% { transform: rotate(-3deg); }
+        50% { transform: rotate(3deg); }
       }
       @media (prefers-reduced-motion: reduce) {
-        .logos { animation: none; }
+        .logos image { animation: none; }
       }
     </style>
     <filter id="shadow" x="-10%" y="-15%" width="120%" height="135%">
