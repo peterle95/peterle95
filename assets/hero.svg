@@ -76,6 +76,12 @@
     </g>
     <line x1="778" y1="306.5" x2="1120" y2="306.5" stroke="oklch(0.40 0.022 245)"/>
 
+    <g aria-label="Next.js, JavaScript, and TypeScript">
+      <image href="next.png" x="807" y="404" width="72" height="72" preserveAspectRatio="xMidYMid meet"/>
+      <image href="javascript.png" x="914" y="404" width="72" height="72" preserveAspectRatio="xMidYMid meet"/>
+      <image href="typescript.png" x="1021" y="404" width="72" height="72" preserveAspectRatio="xMidYMid meet"/>
+    </g>
+
     <text x="18" y="697" class="sans muted" font-size="12">session: active · last login: berlin/de</text>
   </g>
 </svg>
